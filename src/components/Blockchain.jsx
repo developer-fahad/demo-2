@@ -13,7 +13,7 @@ const Blockchain = () => {
         >
           <TabList className={"flex justify-between"}>
             <Tab
-              className={`w-full text-[26px] leading-10 font-bold text-center flex items-center justify-center cursor-pointer !bg-[#C2F929] !border-none !outline-none !rounded-tr-2xl !rounded-tl-2xl ${
+              className={`w-full xl:text-[26px] text-sm leading-10 font-bold text-center flex items-center justify-center cursor-pointer !bg-[#C2F929] !border-none !outline-none !rounded-tr-2xl !rounded-tl-2xl ${
                 tabIndex === 0
                   ? "!bg-[#C2F929] !rounded-tr-2xl !rounded-tl-2xl py-3"
                   : ""
@@ -22,7 +22,7 @@ const Blockchain = () => {
               Blockchain-Based
             </Tab>
             <Tab
-              className={`w-full text-[26px] leading-10 font-bold text-center flex items-center justify-center cursor-pointer !bg-[#B341FF] !border-none !outline-none !rounded-tr-2xl !rounded-tl-2xl  ${
+              className={`w-full xl:text-[26px] text-sm leading-10 font-bold text-center flex items-center justify-center cursor-pointer !bg-[#B341FF] !border-none !outline-none !rounded-tr-2xl !rounded-tl-2xl  ${
                 tabIndex === 1
                   ? "!bg-[#B341FF] !rounded-tr-2xl !rounded-tl-2xl py-3"
                   : ""
@@ -31,7 +31,7 @@ const Blockchain = () => {
               Low-Cost Transactions
             </Tab>
             <Tab
-              className={`w-full text-[26px] leading-10 font-bold text-center flex items-center justify-center cursor-pointer !bg-[#0FCDC8] !border-none !outline-none !rounded-tr-2xl !rounded-tl-2xl ${
+              className={`w-full xl:text-[26px] text-sm leading-10 font-bold text-center flex items-center justify-center cursor-pointer !bg-[#0FCDC8] !border-none !outline-none !rounded-tr-2xl !rounded-tl-2xl ${
                 tabIndex === 2
                   ? "!bg-[#0FCDC8] !rounded-tr-2xl !rounded-tl-2xl py-3"
                   : ""
@@ -43,7 +43,7 @@ const Blockchain = () => {
           <TabPanel
             className={`${tabIndex === 0 ? "!bg-[#C2F929] py-12 px-12" : ""}`}
           >
-            <div className="flex justify-between gap-8">
+            <div className="flex xl:flex-row flex-col justify-between gap-8">
               <div className="w-1/2 space-y-6">
                 <h1 className="text-[40px] leading-[48px] font-semibold text-[#444444]">
                   The Fun Side of <br /> Abcdefg
@@ -64,7 +64,7 @@ const Blockchain = () => {
                 </p>
               </div>
               <div className="w-1/2 space-y-6">
-                <div className="flex items-center gap-24">
+                <div className="flex items-center xl:gap-24 gap-8">
                   <div>
                     <h1 className="text-[40px] leading-[48px] font-semibold text-[#444444]">
                       200+
@@ -111,7 +111,7 @@ const Blockchain = () => {
           <TabPanel
             className={`${tabIndex === 1 ? "!bg-[#B341FF] py-12 px-12" : ""}`}
           >
-            <div className="flex justify-between gap-8">
+            <div className="flex xl:flex-row flex-col justify-between xl:gap-8">
               <div className="w-1/2 space-y-6">
                 <h1 className="text-[40px] leading-[48px] font-semibold text-[#444444]">
                   The Fun Side of <br /> Abcdefg
@@ -132,7 +132,7 @@ const Blockchain = () => {
                 </p>
               </div>
               <div className="w-1/2 space-y-6">
-                <div className="flex items-center gap-24">
+                <div className="flex items-center xl:gap-24 gap-8">
                   <div>
                     <h1 className="text-[40px] leading-[48px] font-semibold text-[#444444]">
                       200+
@@ -179,7 +179,7 @@ const Blockchain = () => {
           <TabPanel
             className={`${tabIndex === 2 ? "!bg-[#0FCDC8] py-12 px-12" : ""}`}
           >
-            <div className="flex justify-between gap-8">
+            <div className="flex xl:flex-row flex-col justify-between xl:gap-8">
               <div className="w-1/2 space-y-6">
                 <h1 className="text-[40px] leading-[48px] font-semibold text-[#444444]">
                   The Fun Side of <br /> Abcdefg
@@ -200,7 +200,7 @@ const Blockchain = () => {
                 </p>
               </div>
               <div className="w-1/2 space-y-6">
-                <div className="flex items-center gap-24">
+                <div className="flex items-center xl:gap-24 gap-8">
                   <div>
                     <h1 className="text-[40px] leading-[48px] font-semibold text-[#444444]">
                       200+

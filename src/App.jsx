@@ -12,18 +12,26 @@ function App() {
   return (
     <>
       <div className="font-lexend min-h-screen max-w-[2560px] mx-auto relative bg-[#191919]">
-        <img className="absolute left-0 top-[482px]" src={objLeft} alt="" />
-        <img className="absolute right-0 top-[174px]" src={objRight} alt="" />
-        <div className="container w-[1240px] mx-auto">
+        <img
+          className="absolute left-0 top-[482px] xl:block hidden"
+          src={objLeft}
+          alt=""
+        />
+        <img
+          className="absolute right-0 top-[174px] xl:block hidden"
+          src={objRight}
+          alt=""
+        />
+        <div className="container xl:w-[1240px] w-full mx-auto xl">
           <Header></Header>
         </div>
-        <div className="container w-[1240px] mx-auto">
+        <div className="container xl:w-[1240px] w-full mx-auto">
           <About></About>
         </div>
-        <div className="container w-[1240px] mx-auto">
+        <div className="container xl:w-[1240px] w-full mx-auto">
           <DemoTaka></DemoTaka>
         </div>
-        <div className="container w-[1240px] mx-auto">
+        <div className="container xl:w-[1240px] w-full mx-auto">
           <Blockchain></Blockchain>
         </div>
       </div>

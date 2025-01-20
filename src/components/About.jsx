@@ -18,12 +18,20 @@ import card3Obj6 from '../assets/card3Obj6.png'
 const About = () => {
     return (
       <div className="mt-24 py-16">
-        <div className="flex justify-between items-center gap-8">
-          <div className="w-5/12  transform -rotate-12">
+        <div className="flex xl:flex-row flex-col justify-between items-center gap-8">
+          <div className="w-5/12  transform xl:-rotate-12">
             <div className="w-5/6 relative p-5 rounded-lg bg-[#ADD753]">
-              <img className='absolute -right-32 -top-32' src={card1Obj1} alt="" />
-              <img className='absolute -right-12 top-40' src={card1Obj2} alt="" />
-              <img className='absolute left-32 -top-8' src={card1Obj3} alt="" />
+              <img
+                className="absolute -right-32 -top-32"
+                src={card1Obj1}
+                alt=""
+              />
+              <img
+                className="absolute -right-12 top-40"
+                src={card1Obj2}
+                alt=""
+              />
+              <img className="absolute left-32 -top-8" src={card1Obj3} alt="" />
               <h2 className="mb-8 font-bold text-[26px] leading-8">
                 What are
                 <br /> <span className="font-normal">demo Taka?</span>
@@ -37,15 +45,31 @@ const About = () => {
               </p>
             </div>
           </div>
-          <div className="w-7/12 relative  bg-[#B341FF] p-5 rounded-lg transform rotate-6">
-            <img className='scale-90 absolute -right-16 -top-20' src={card2Obj1} alt="" />
-            <img className='absolute -right-4 -top-48' src={card2Obj2} alt="" />
-            <img className='absolute right-14 -bottom-20' src={card2Obj3} alt="" />
-            <img className='absolute right-40 -top-8' src={card2Obj4} alt="" />
-            <img className='scale-75 absolute right-56 -top-2' src={card2Obj4} alt="" />
-            <img className='scale-50 absolute right-44 top-12' src={card2Obj4} alt="" />
-            <img className='absolute left-64 -top-10' src={card2Obj5} alt="" />
-            <img className='absolute left-16 -top-20' src={card2Obj6} alt="" />
+          <div className="w-7/12 relative  bg-[#B341FF] p-5 rounded-lg transform xl:rotate-6">
+            <img
+              className="scale-90 absolute -right-16 -top-20"
+              src={card2Obj1}
+              alt=""
+            />
+            <img className="absolute -right-4 -top-48" src={card2Obj2} alt="" />
+            <img
+              className="absolute right-14 -bottom-20"
+              src={card2Obj3}
+              alt=""
+            />
+            <img className="absolute right-40 -top-8" src={card2Obj4} alt="" />
+            <img
+              className="scale-75 absolute right-56 -top-2"
+              src={card2Obj4}
+              alt=""
+            />
+            <img
+              className="scale-50 absolute right-44 top-12"
+              src={card2Obj4}
+              alt=""
+            />
+            <img className="absolute left-64 -top-10" src={card2Obj5} alt="" />
+            <img className="absolute left-16 -top-20" src={card2Obj6} alt="" />
             <h2 className="mb-8 font-bold text-[26px] leading-8 text-white">
               So, why are
               <br /> they so popular?
@@ -61,13 +85,37 @@ const About = () => {
         </div>
         <div>
           <div className="w-6/12 relative flex flex-col items-end rounded-lg p-8 mx-auto mt-16 bg-[#0FCDC8]">
-            <img className='absolute -left-44 -top-44' src={card3Obj1} alt="" />
-            <img className='absolute -left-52 top-8' src={card3Obj2} alt="" />
-            <img className='absolute left-64 top-12' src={card3Obj3} alt="" />
-            <img className='absolute left-[350px] top-14' src={card3Obj4} alt="" />
-            <img className='scale-50 absolute -right-24 top-20' src={card3Obj5} alt="" />
-            <img className='scale-50 absolute -right-52 top-16' src={card3Obj6} alt="" />
-            <p className="absolute -left-10 bottom-2 font-light text-[14px] leading-6 py-1 px-5 rounded-lg bg-yellow-500">
+            <img
+              className="absolute xl:-left-44 xl:-top-44"
+              src={card3Obj1}
+              alt=""
+            />
+            <img
+              className="absolute xl:-left-52 xl:top-8"
+              src={card3Obj2}
+              alt=""
+            />
+            <img
+              className="absolute xl:left-64 xl:top-12"
+              src={card3Obj3}
+              alt=""
+            />
+            <img
+              className="absolute xl:left-[350px] xl:top-14"
+              src={card3Obj4}
+              alt=""
+            />
+            <img
+              className="xl:scale-50 absolute xl:-right-24 xl:top-20"
+              src={card3Obj5}
+              alt=""
+            />
+            <img
+              className="xl:scale-50 absolute xl:-right-52 xl:top-16"
+              src={card3Obj6}
+              alt=""
+            />
+            <p className="absolute xl:-left-10 xl:bottom-2 font-light text-[14px] leading-6 py-1 px-5 rounded-lg bg-yellow-500">
               Let me know if you’d like more tweaks!
             </p>
             <h2 className="mb-8 font-bold text-[26px] text-right leading-8">
