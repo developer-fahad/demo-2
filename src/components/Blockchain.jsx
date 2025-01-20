@@ -13,22 +13,28 @@ const Blockchain = () => {
         >
           <TabList className={"flex justify-between"}>
             <Tab
-              className={`w-full text-[26px] leading-10 font-bold text-center flex items-center justify-center cursor-pointer !bg-[#C2F929] !outline-none rounded-tr rounded-tl ${
-                tabIndex === 0 ? "!bg-[#C2F929] rounded-tr rounded-tl py-3" : ""
+              className={`w-full text-[26px] leading-10 font-bold text-center flex items-center justify-center cursor-pointer !bg-[#C2F929] !border-none !outline-none !rounded-tr-2xl !rounded-tl-2xl ${
+                tabIndex === 0
+                  ? "!bg-[#C2F929] !rounded-tr-2xl !rounded-tl-2xl py-3"
+                  : ""
               }`}
             >
               Blockchain-Based
             </Tab>
             <Tab
-              className={`w-full text-[26px] leading-10 font-bold text-center flex items-center justify-center cursor-pointer !bg-[#B341FF] !outline-none rounded-tr rounded-tl  ${
-                tabIndex === 1 ? "!bg-[#B341FF] rounded-tr rounded-tl py-3" : ""
+              className={`w-full text-[26px] leading-10 font-bold text-center flex items-center justify-center cursor-pointer !bg-[#B341FF] !border-none !outline-none !rounded-tr-2xl !rounded-tl-2xl  ${
+                tabIndex === 1
+                  ? "!bg-[#B341FF] !rounded-tr-2xl !rounded-tl-2xl py-3"
+                  : ""
               }`}
             >
               Low-Cost Transactions
             </Tab>
             <Tab
-              className={`w-full text-[26px] leading-10 font-bold text-center flex items-center justify-center cursor-pointer !bg-[#0FCDC8] !outline-none rounded-tr rounded-tl ${
-                tabIndex === 2 ? "!bg-[#0FCDC8] rounded-tr rounded-tl py-3" : ""
+              className={`w-full text-[26px] leading-10 font-bold text-center flex items-center justify-center cursor-pointer !bg-[#0FCDC8] !border-none !outline-none !rounded-tr-2xl !rounded-tl-2xl ${
+                tabIndex === 2
+                  ? "!bg-[#0FCDC8] !rounded-tr-2xl !rounded-tl-2xl py-3"
+                  : ""
               }`}
             >
               Speculative Nature

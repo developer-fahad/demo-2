@@ -17,7 +17,7 @@ import card3Obj6 from '../assets/card3Obj6.png'
 
 const About = () => {
     return (
-      <div className="border mt-24 py-16">
+      <div className="mt-24 py-16">
         <div className="flex justify-between items-center gap-8">
           <div className="w-5/12  transform -rotate-12">
             <div className="w-5/6 relative p-5 rounded-lg bg-[#ADD753]">

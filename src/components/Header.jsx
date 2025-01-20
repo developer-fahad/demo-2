@@ -10,7 +10,7 @@ import obj7 from '../assets/header-obj7.png'
 
 const Header = () => {
     return (
-      <div className="border relative pt-[240px]">
+      <div className="relative pt-[240px]">
         <img
           className="absolute z-10 left-2/4 top-[400px] transform -translate-x-2/4 -translate-y-2/4 opacity-40"
           src={bg}
