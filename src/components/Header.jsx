@@ -26,7 +26,7 @@ const Header = () => {
           alt=""
         />
         <img
-          className="absolute right-96 bottom-32 z-[100]"
+          className="absolute scale-[0.3] right-60 -bottom-8 z-[100]"
           src={obj6}
           alt=""
         />
